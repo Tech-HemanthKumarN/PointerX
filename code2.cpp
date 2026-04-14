@@ -24,4 +24,4 @@ int main(){
     cout<<" ac :" << ac <<" *p : " <<*p << " *q : " << *q << endl;
     
     return 0;
-}
+}  

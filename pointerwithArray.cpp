@@ -8,13 +8,7 @@ int main(){
     cout<<ptr<<endl;
     cout<<ptr+1<<endl;
 
-    //Char Example
-
-    char ch[100] = "loveBabber";
-    char* cptr = ch;
-
-    cout<<"Base address : "<< &ch <<endl;
-    cout<<"char answer :"<<cptr<<endl;
+    
 
     //In array --> "arr" will print the base adress but in charecter "ch" it will print entier string
     return 0;

@@ -34,7 +34,7 @@ int main()
     char* chrptr = &chr[0]; 
 
     cout<<"chr :" <<chr<<endl; //:RaceCar
-    cout<<"chr[0] :" <<chr[0]<<endl; //0x28a89ff880
+    cout<<"chr[0] :" <<chr[0]<<endl; //R
     cout<<"&chr :" <<&chr<<endl; //0x28a89ff880
     cout<<"*(chr+3) :" <<*(chr+3) <<endl; //e
     cout<<"chrptr : " <<chrptr <<endl; //RaceCar

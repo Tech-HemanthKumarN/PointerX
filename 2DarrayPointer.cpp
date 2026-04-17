@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
@@ -38,6 +38,13 @@ int main()
             cout << arr[i][j] << ' ';
         }
         cout << endl;
+    }
+
+
+    //deleting each array individualy
+
+    for(int i = 0; i < 4; i ++){
+        delete[] arr[i];
     }
     return 0;
 }
